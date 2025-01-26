@@ -1,6 +1,6 @@
 package ecommerce;
 
-public class Groceries extends Product implements Taxable {
+class Groceries extends Product implements Taxable {
     // Attribute of Groceries class
     private int taxPercentage = 25;
     private int discountPercentage = 10;
